@@ -1,0 +1,19 @@
+# Filename - ignore only that file
+tempfile.txt
+.DS_store
+
+# *.ext - ignore all files ending in .ext
+*.txt
+*.zip
+*.gz
+
+#  dir/* - all files of a type inside a directory
+log/*.log
+assets/photoshop/
+assets/videos
+
+# [x-y] - a character that is between x and y
+log/*.log.[0-9]
+
+# ! - do not ignore certain files (otherwise ignored files)
+assets/videos/tour_*.mp4

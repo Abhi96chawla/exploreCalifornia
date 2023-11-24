@@ -1,6 +1,6 @@
 From nginx:alpine
 
-MKDIR exploreCalifornia
+mkdir exploreCalifornia
 
 COPY . /exploreCalifornia
 COPY exploreCalifornia/ /usr/share/nginx/html/

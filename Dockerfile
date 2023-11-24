@@ -1,8 +1,7 @@
 From nginx:alpine
 
-mkdir exploreCalifornia
-
-COPY . /exploreCalifornia
-COPY exploreCalifornia/ /usr/share/nginx/html/
+#WORKDIR exploreCalifornia
+#COPY . /exploreCalifornia
+COPY . /usr/share/nginx/html/
 
 EXPOSE 80
